@@ -89,6 +89,7 @@ brooklynCrew.forEach(function(data) {
     .bindPopup(data.name + ' likes to eat pizza at ' + data.restaurant)
     .addTo(map)
 
+
     brooklynLayerGroup.addLayer(thisCircleMarker);
 });
 
